@@ -6,8 +6,8 @@ let level = 0;
 
 $(document).keydown(function() {
     if (!gameStart){
-        gameStart = true;
         nextSequence();
+        gameStart = true;
     }
 });
 
